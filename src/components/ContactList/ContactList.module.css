@@ -1,0 +1,31 @@
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+li>button {
+    padding: 5px;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 4px;
+    transition-duration: 300ms;
+}
+
+li>button:hover {
+    transform: scale(1.06);
+}
