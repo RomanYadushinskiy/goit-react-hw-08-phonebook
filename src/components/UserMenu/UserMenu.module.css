@@ -7,3 +7,21 @@
 .username {
     font-weight: 700;
 }
+
+.wrapper button {
+    width: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: whitesmoke;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 4px;
+    transition-duration: 300ms;
+}
+
+.wrapper button:hover {
+    transform: scale(1.06);
+}
